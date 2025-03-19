@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "王建理的学术简历"
+  site-url: https://yourusername.github.io/jianliwangzhan/
+  navbar:
+    left:
+      - href: index.qmd
+        text: 个人简介
+      - href: education.qmd
+        text: 教育背景
+      - href: awards.qmd
+        text: 学术荣誉
+      - href: contact.qmd
+        text: 联系方式
+    background: "#2C3E50"
+    primary: "#3498DB"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    code-fold: true

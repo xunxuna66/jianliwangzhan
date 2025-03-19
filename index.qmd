@@ -1,0 +1,32 @@
+---
+title: "王建理 博士候选人"
+---
+
+## 个人简介
+
+![](profile.jpg){.profile fig-alt="证件照"}
+
+- 🎓 华中农业大学作物遗传改良国家重点实验室 硕士（2023）
+- 🔬 研究方向：作物分子育种与基因组学
+- 📚 核心技能：CRISPR基因编辑、生物信息学分析、统计建模
+- 🌱 当前状态：申请海外农业生物技术博士学位
+
+```{python}
+#| echo: false
+import pandas as pd
+skills = pd.DataFrame({
+    '技术领域': ['分子克隆', '基因组组装', 'QTL定位', 'Python编程'],
+    '熟练程度': [90, 85, 88, 92]
+})
+skills.to_csv('skills.csv', index=False)
+```
+
+```{r}
+#| echo: false
+library(ggplot2)
+skills <- read.csv('skills.csv')
+ggplot(skills, aes(x=技术领域, y=熟练程度)) +
+  geom_col(fill="#3498DB") +
+  theme_minimal() +
+  labs(title="技术能力雷达图") +
+  coord_polar()

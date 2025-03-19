@@ -1,0 +1,68 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"王建理 博士候选人\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## 个人简介\n",
+        "\n",
+        "![](profile.jpg){.profile fig-alt=\"证件照\"}\n",
+        "\n",
+        "- 🎓 华中农业大学作物遗传改良国家重点实验室 硕士（2023）\n",
+        "- 🔬 研究方向：作物分子育种与基因组学\n",
+        "- 📚 核心技能：CRISPR基因编辑、生物信息学分析、统计建模\n",
+        "- 🌱 当前状态：申请海外农业生物技术博士学位\n"
+      ],
+      "id": "2c2f1ce4"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "import pandas as pd\n",
+        "skills = pd.DataFrame({\n",
+        "    '技术领域': ['分子克隆', '基因组组装', 'QTL定位', 'Python编程'],\n",
+        "    '熟练程度': [90, 85, 88, 92]\n",
+        "})\n",
+        "skills.to_csv('skills.csv', index=False)"
+      ],
+      "id": "8f53a4ad",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "#| echo: false\n",
+        "library(ggplot2)\n",
+        "skills <- read.csv('skills.csv')\n",
+        "ggplot(skills, aes(x=技术领域, y=熟练程度)) +\n",
+        "  geom_col(fill=\"#3498DB\") +\n",
+        "  theme_minimal() +\n",
+        "  labs(title=\"技术能力雷达图\") +\n",
+        "  coord_polar()"
+      ],
+      "id": "e530a9a1"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "E:\\anaconda\\share\\jupyter\\kernels\\python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

@@ -1,0 +1,18 @@
+---
+title: "联系方式"
+---
+
+## 学术联系
+- 📧 邮箱：jianli.wang@hzaudc.edu.cn
+- 🏢 LinkedIn：[/in/jianli-wang-agri](https://linkedin.com/in/jianli-wang-agri)
+- 📚 ResearchGate：[/Jianli_Wang](https://www.researchgate.net/profile/Jianli_Wang)
+- 🧬 Google Scholar：[王建理](https://scholar.google.com/citations?user=ABCD1234)
+
+## 实验室地址
+华中农业大学作物遗传改良国家重点实验室  
+湖北省武汉市洪山区狮子山街1号  
+邮编：430070
+
+## 其他联系方式
+- GitHub：[AgriBio-Wang](https://github.com/AgriBio-Wang)
+- 电话：+86 138-1234-5678 (工作日 9:00-17:00)
